@@ -4,7 +4,7 @@
 // @description        Beautify the bookmark at the home page of Baidu.
 // @description:zh-CN  美化百度首页的书签页面。
 // @namespace          https://github.com/HaleShaw
-// @version            1.0.2
+// @version            1.0.3
 // @author             HaleShaw
 // @copyright          2020+, HaleShaw (https://github.com/HaleShaw)
 // @license            AGPL-3.0-or-later
@@ -138,16 +138,17 @@ a.site-item-img_3NN3N>img {
 }
 
 .c-wrapper-l {
-  width: 1380px;
+  width: 1380px !important;
 }
 
 #s_xmancard_desktop>div.san-card>div,
-#s_xmancard_desktop>div.san-card>div>div>div>div {
-  width: 1412px;
+#s_xmancard_desktop>div.san-card>div>div>div>div,
+#s_xmancard_desktop>div.san-card>div>div>div>div>div>div.content_2q4gZ {
+  width: 1412px !important;
 }
 
 #s_xmancard_desktop>div.san-card>div>div>div>div>div>div>div>div>div {
-  width: 1310px;
+  width: 1310px !important;
 }
 
 /* 添加按钮 */
